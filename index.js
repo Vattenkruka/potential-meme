@@ -19,11 +19,6 @@ const rl = readline.createInterface({
     output: process.stdout
 });
 
-const optionReadPackage = '1. Read package.json';
-const optionDisplayOSInfo = '2. Display OS info';
-const optionStartHttpServer = '3. Start HTTP Server';
-
-
 rl.question('Choose an option: \n 1. Read package.json \n 2. Display OS info \n 3. Start HTTP Server \n Type a number: ', (answer) => {
 
     //Checks if the answer is a number, or if it is in the interval between 1-3
